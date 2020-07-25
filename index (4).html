@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- chap 49-52 -->
+   
+ <!-- task1 -->
+       <!-- Name<input type="text" id="name"><br>
+       lastName<input type="text" id="lastName"><br>
+       email<input type="email" id="email"><br>
+       Password<input type="password" id="password"><br>
+       <input type="button" onclick="signUp()" value="submit">
+   
+   <p id="demo1"></p>
+   <p id="demo2"></p>
+   <p id="demo3"></p>
+    -->
+   
+    <!-- task2 -->
+<!-- <p>
+    Each item in ArcGIS Online includes an item page with a variety of information, actions, options,
+     and settings organized by tab: Overview, Data, Visualization, Usage, and Settings.
+     The tabs you see, as well as the options and information available on the tabs, depends on the item type, 
+     your privileges, and whether you are the item owner or administrator.<a href="javascript:readMore()" id="moreBtn" >Read More</a><span id="more">
+   Item pages allow you to explore items in-depth in a variety of ways. For example, an interactive attribute
+ table integrates related records and attachments, allowing you to navigate attribute data and view all aspects 
+ of a field together, including field values, summary statistics, and settings. Content creators and administrators
+  can change an item's settings without having to go to other places on the site. For example, you can configure
+   an app from a scene on the Overview tab or edit app settings directly on the Settings tab. Feature layer styles,
+    pop-ups, and other layer properties can be configured on the Visualization tab as an alternative to opening the 
+    layer in Map Viewer.To access an item page, click Details under an item's thumbnail or,
+     from the gallery, hover over the thumbnail and click Details. If you own the item, you can access the 
+     item page through the My Content tab of the content page.Individual layers in a feature layer have their own
+details pages. These pages contain information and functionality that pertains to and affects the sublayer only. 
+To access details for a sublayer, open the details page for the feature layer and click the sublayer in the Layers 
+list on the Overview tab. To return to the details for the feature layer, click the layer name in the banner at the
+top of the details page.
+</p> -->
+
+    <!-- task3 -->
+
+    <h2>Student Form</h2>
+    
+
+    <label for="stdName">Enter Name: </label>
+    <input type="text"  id="stdName"><br><br>
+    <label for="mail">Enter email: </label>
+    <input type="email"  id="mail"><br><br>
+    <label for="phone">Enter Contact No: </label>
+    <input type="number"  id="phone"><br><br>
+    <label for="address">Enter  address: </label>
+    <input type="text"  id="address"><br><br>
+    <input type="button" value="Add" id="myBtn" onclick="addData()" /><br>
+    <!-- <div id="myform" class="popup-form  ">
+        <h2>Edit Form</h2>
+        <label for="stdName">Enter Name: </label>
+        <input type="text"  id="stdName1"><br><br>
+        <label for="mail">Enter email: </label>
+        <input type="email"  id="mail1"><br><br>
+        <label for="phone">Enter Contact No: </label>
+        <input type="number"  id="phone1"><br><br>
+        <label for="address">Enter  address: </label>
+        <input type="text"  id="address1"><br><br>
+        <input type="button" value="Update" id="btnUpdt" onclick="updateData()" /><br>         -->
+        <div id="myform" class="popup-form "><h2>Edit Form</h2><label for="stdName">Enter Name: </label><input type="text" id="stdName1"><br><br><label for="mail">Enter email: </label><input type="email" id="mail1"><br><br><label for="phone">Enter Contact No: </label><input type="number" id="phone1"><br><br><label for="address">Enter address: </label><input type="text" id="address1"><br><br><input type="button" value="Update" id="btnUpdt" onclick="updateData()" /><br>
+    </div>
+  <center>
+    <table id="table" border="1px ">
+     <h2>Details</h2>
+<tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>phone no</th>
+    <th>Address</th>
+    <th>Action</th>
+</tr>
+   
+    </table>
+</center>
+
+
+
+
+    <script src = "app.js"></script>
+</body>
+</html>
